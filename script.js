@@ -147,9 +147,9 @@ function renderQuestion() {
     // Update next button text
     const btnNext = document.getElementById('btn-next');
     if (currentQuestion === questions.length - 1) {
-        btnNext.innerHTML = '<span>Natijani ko\'rish</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+        btnNext.innerHTML = '<span>Natijani ko\'rish</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
     } else {
-        btnNext.innerHTML = '<span>Keyingisi</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+        btnNext.innerHTML = '<span>Keyingisi</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
     }
 
     let html = `
